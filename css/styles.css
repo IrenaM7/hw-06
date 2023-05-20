@@ -318,7 +318,6 @@ img {
   fill: #f4f4fd;
 }
 
-
 .socials-item{
   
  width: 40px;
@@ -385,9 +384,7 @@ img {
   align-items: center;
   
   border-radius: 4px;
-  
-  
-  
+   
 }   
 .clients{
   gap: 24px;
@@ -599,7 +596,7 @@ fill: var(--accent-cloud-color);
 }
 .port-button:hover,
 .port-button:focus {
-  border-color: 1px solid transparent;
+  border-color:  transparent;
   color: var(--primary-white-color);
   background-color: var(--accent-ocean-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
