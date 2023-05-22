@@ -426,6 +426,51 @@
           <use href="./images/icons.svg#close"></use>
         </svg>
       </button>
+      <p class="modal-text">Leave your contacts and we will call you back</p>
+      <form class="modal-form">
+        <div class="dmodal">
+        <label class="ntext" for="modal_name">Name</label>
+         <div class="dname">
+          <input class="input" 
+           type="text" name="modal_name" id="modal_name">
+        <svg class="name" width="18" height="24">
+          <use href="./images/icons.svg#modalnaim"></use>
+        </svg>
+        </div>
+        <label for="modal_tel" class="ltext">Phone</label>
+        <div class="dtel">
+          <input class="input" 
+           type="text" name="modal_tel" id="modal_tel">
+          <svg class="tel" width="18" height="24">
+            <use href="./images/icons.svg#modaltel"></use>
+          </svg>
+        </div>
+        <label for="modal_mail" class="ltext">Email</label>
+        <div class="dmail">
+          <input class="input" 
+           type="text" name="modal_mail" id="modal_mail">
+          <svg class="mail" width="18" height="24">
+            <use href="./images/icons.svg#modalmail"></use>
+          </svg>
+        </div>
+        <label for="modal_comment" class="ltext">
+          Comment
+        <textarea class="tcomment"  
+          name="modal_comment"  
+          rows="6" 
+          placeholder="Text input" >
+        </textarea>
+        </label>
+        </div>
+        <label>
+          <input type="checkbox" name="icomment">
+          <span class="scomment">I accept the terms and conditions of the
+            <a href=""> Privacy Policy</a>
+          </span>
+        </label>
+        <button type="submit" class="button primary">Send</button>
+      
+      </form>
      </div>
     </div>
     <script src="./js/modal.js"></script>

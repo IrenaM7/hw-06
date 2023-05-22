@@ -656,15 +656,14 @@ fill: var(--accent-cloud-color);
   left: 50%;
   transform: translate(-50% ,-50%);
 
-
-
-
+  
   min-height: 576px;
   min-width: 408px;
+  padding: 72px 24px 24px 24px;
+  
  
   border-radius: 4px;
   background: rgba(252, 252, 252, 1);
-  
   
 box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
  transition: transform var(--trans--);
@@ -706,4 +705,82 @@ border var(--trans--);
   
   transition: fill var(--trans--);
 
+}
+.dmodal{
+  
+}
+.modal-text{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+.name{
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 0px;
+}
+.dname{
+  position: relative;
+}
+.tel{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+
+}
+.dtel{
+  position: relative;
+}
+.mail{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.dmail{
+  position: relative;
+  column-gap: 26px;
+}
+
+.input{
+  
+  width: 360px;
+height: 40px;
+}
+
+
+.tcomment{
+  display: flex;
+  resize: none;
+  width: 360px;
+  
+}
+.tcomment::placeholder{
+   color: rgba(46, 47, 66, 0.4);
+}
+.scomment{
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.04em;
+}
+.ltext{
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+}
+.ntext{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.04em;
 }
