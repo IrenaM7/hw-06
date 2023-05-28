@@ -416,6 +416,26 @@
           </li>
         </ul>
       </div>
+      <div class="footer-form">
+        <p class="footer-text-soc">Subscribe</p>
+        <form>
+          <div class="forms">
+          <label class="lab">
+
+            <input type="email" name="mail" class="fmail" >
+            <span class="smail">E-mail </span>                       
+          </label>
+          
+          <button type="submit" class="fbutton"><span class="sbutton">
+            Subscribe</span>
+          <svg  class="foter-button-form" width="24" height="24" >
+            <use href="./images/icons.svg#foter-form"></use>
+          </svg>
+          </button>
+          
+          </div>
+        </form>
+      </div>
       </div>
     </footer>
     <!--modal windous-->
@@ -427,45 +447,42 @@
         </svg>
       </button>
       <p class="modal-text">Leave your contacts and we will call you back</p>
+      <!--форма модального окна-->
       <form class="modal-form">
-        <div class="dmodal">
+      <div class="dmodal">
         <label class="ntext" for="modal_name">Name</label>
-         <div class="dname">
+        <div class="dform distanc">
           <input class="input" 
            type="text" name="modal_name" id="modal_name">
-        <svg class="name" width="18" height="24">
-          <use href="./images/icons.svg#modalnaim"></use>
-        </svg>
+          <svg class="sclas" width="18" height="24">
+           <use href="./images/icons.svg#modalnaim"></use>
+          </svg>
         </div>
         <label for="modal_tel" class="ltext">Phone</label>
-        <div class="dtel">
+        <div class="dform distanc">
           <input class="input" 
            type="text" name="modal_tel" id="modal_tel">
-          <svg class="tel" width="18" height="24">
+          <svg class="sclas" width="18" height="24">
             <use href="./images/icons.svg#modaltel"></use>
           </svg>
         </div>
         <label for="modal_mail" class="ltext">Email</label>
-        <div class="dmail">
+        <div class="dform distanc">
           <input class="input" 
            type="text" name="modal_mail" id="modal_mail">
-          <svg class="mail" width="18" height="24">
+          <svg class="sclas" width="18" height="24">
             <use href="./images/icons.svg#modalmail"></use>
           </svg>
         </div>
         <label for="modal_comment" class="ltext">
-          Comment
-        <textarea class="tcomment"  
-          name="modal_comment"  
-          rows="6" 
-          placeholder="Text input" >
-        </textarea>
-        </label>
-        </div>
-        <label>
-          <input type="checkbox" name="icomment">
+          Comment</label>
+        <textarea class="tcomment"name="modal_comment"rows="6"id="modal_comment"placeholder="Text input" ></textarea>  
+        
+      </div>
+        <label class="lchek">
+          <input type="checkbox" name="icomment" class="ichek">
           <span class="scomment">I accept the terms and conditions of the
-            <a href=""> Privacy Policy</a>
+            <a href="" class="link-text"> Privacy Policy</a>
           </span>
         </label>
         <button type="submit" class="button primary">Send</button>
